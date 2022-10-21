@@ -1,0 +1,148 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+
+}
+:root{
+--ciano: hsl(179, 62%, 43%);
+--amareloclaro: hsl(71, 73%, 54%);
+--cinzaclaro: hsl(204, 43%, 93%);
+--azul: hsl(218, 22%, 67%);
+}
+
+body{
+    background-color: var(--cinzaclaro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 97vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div{
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border-start-start-radius: 20px;
+    border-start-end-radius: 20px;
+    padding: 20px 100px 20px 50px;
+}
+h1{
+    font-family: 'Karla', Arial, sans-serif;
+    font-weight: 700;
+    color: var(--ciano);
+}
+h2{
+    font-family: 'Karla', Arial, sans-serif;
+    font-weight: 700;
+    color: var(--amareloclaro);
+}
+p{
+    font-family: 'Karla', Arial, sans-serif;
+    font-weight: 400;
+    color: var(--azul);
+    
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0px;
+}
+
+
+/* SEGUNDO BLOCO !!!! */
+
+
+.segundobloco{
+    background-color: var(--ciano);
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px;
+    border-end-start-radius: 10px;
+    padding: 10px 50px;
+}
+
+.fontesegundo{
+    font-family: 'Karla', Arial, sans-serif;
+    font-weight: 700;
+    font-size: x-large;
+    color: var(--cinzaclaro);
+    line-height: 0px;
+    margin-top: 50px;
+}
+.segundoparagrafo{
+    font-family: 'Karla', Arial, sans-serif;
+    font-weight: 400;
+    color: var(--cinzaclaro);
+    line-height: 0px;
+
+}
+
+.fonte2segundo{
+    font-family: 'Karla', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: var(--cinzaclaro);
+}
+
+.alinhar{
+    display: flex;
+    background-color: var(--ciano);
+    padding: 0px;
+
+}
+
+h4{
+    font-family: 'Karla', Arial, sans-serif;
+    font-weight: 400;
+    margin:45px 30px;
+    color: var(--cinzaclaro);
+}
+
+a{
+
+    font-family: 'Karla', Arial, sans-serif;
+    font-weight: 700;
+    color: var(--cinzaclaro);
+    text-align: center;
+    background-color: var(--amareloclaro);
+    padding: 15px;
+    margin-top: 20px;
+    max-width: 250px;
+    border-radius: 10px;
+    text-decoration: none;
+    box-shadow: 1px 1px 3px var(--amareloclaro);
+}
+
+
+/*TERCEIRO BLOCO !!!!! */
+
+
+.terceirobloco{
+    background-color: rgb(127, 199, 194);
+    display: flex;
+    flex-direction: column;
+    padding: 40px 50px;
+    border-radius: 0px;
+    border-end-end-radius: 10px;
+}
+
+.fonteterceiro{
+    font-family: 'Karla', Arial, sans-serif;
+    font-weight: 700;
+    color: var(--cinzaclaro);
+    font-size: x-large;
+    margin-top: 5px;
+}
+.terceiroparagrafo{
+    font-family: 'Karla', Arial, sans-serif;
+    font-weight: 400;
+    color: var(--cinzaclaro);
+    font-size: large;
+}
